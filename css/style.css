@@ -1,15 +1,16 @@
 :root{
-    --primary:#6209DB;
+    --primary: #6209DB;
     --dark: #000000;
-    --light:#ffff;
-    --grey:#f5f5f5;
-
-.btn-primary{
-        background-color: var(--primary);
-        border-color: var(--primary);
+    --light: #ffffff;
+    --grey: #e4e4e4;
 }
 
-.btn-primary:hover{
+.btn-primary{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
     background-color: var(--light);
     border-color: var(--primary);
     color: var(--primary);
@@ -17,16 +18,35 @@
 
 .btn-light{
     background-color: var(--light);
-    border-color: var(--primary);
+    border-color: var(--light);
     color: var(--primary);
 }
 
-.punto{
-    color:var(--primary);
-        
-    }   
+.btn-light:hover{
+    background-color: var(--primary);
+    border-color: var(--light);
+    color: var(--light);
+}
 
-.texto{
+.text-punto{
     color: var(--primary);
 }
+
+.badge{
+    background-color: var(--primary);
+    
+}
+
+.card-text{
+    color: var(--primary);
+}
+
+.font{
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+.font1{
+    background-color: var(--grey);
+    border-color: var(--light);
 }
